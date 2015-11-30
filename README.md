@@ -14,5 +14,6 @@ Powerups: Dynamite, Fireball, Mirror,.. Each has interesting effects when indice
 TerrianSquares: Expand your territory--connected components can be used as portals
 
 
-Ok likely many unnecessary/stale files in here...
-Checked with Unity5, just navigate to testConfigs.unity scene and play it. Rest out of date.
+Ok likely many unnecessary/stale files in here...here's some navigation in Unity3D--Checked with Unity5
+1) Latest game scene: Assets>testConfigs
+2) reflex AI scene: Assets>AI>AI
