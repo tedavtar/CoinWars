@@ -3,7 +3,7 @@ The game
 
 Demo Videos:
 https://www.youtube.com/watch?v=qOuIEyAAFgM<br />
-https://www.youtube.com/watch?v=Lzvdf_0ps0s
+https://www.youtube.com/watch?v=Lzvdf_0ps0s<br />
 (many many more. can trace history of this game by watching the vids my YT account)
 
 Rules: work in progress.
