@@ -15,7 +15,6 @@ TerrianSquares: Expand your territory--connected components can be used as porta
 
 
 Ok likely many unnecessary/stale files in here...here's some navigation in Unity3D--Checked with Unity5
-
 1) Latest game scene: Assets>testConfigs
 
 2) reflex AI scene: Assets>AI>AI
