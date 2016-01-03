@@ -17,6 +17,11 @@ tldr version: 2 players control 2 fleets of red or yellow collored coins and hav
 How to kill a coin:
 There are two ways to kill a coin:<br />
 1) Note that each coin has an energy bar (the halo around it). As coins incur damage (inflicted collisions by other coins and especially so by said coins equipped by the Dynamite powerup!) this bar disappears.  Once the halo is gone, the coin dies.<br />
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Healthy.png" alt="orignal"> 
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Damaged.png" alt="orignal"> 
+<br>
 2) Knock the coin off the platform. It will die.
 
 
