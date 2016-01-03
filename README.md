@@ -25,8 +25,32 @@ There are two ways to kill a coin:<br />
 2) Knock the coin off the platform. It will die.
 
 
-
 Features:
+Currency Exchange, Powerups, Terrain Teleporting
+
 Currency Exchange: Merge and split coins by "D" key
+
+Merging:
+
+Say we have three coins "near" each other (near = experiment to find out the right radius!)
+Lets select (click) the middle coin and press "D".
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Merge1.png" alt="orignal"> 
+<br>
+Now we see tentative dotted lines indicating all coins within merge radius--two coins in this case. Next we select one of these 2 coins to continue specifying which coins we would like to merge...Let's select the top left coin and press "D" of course:
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Merge2.png" alt="orignal"> 
+<br>
+Now a dotted line from the first has become solid, a confirmation of intent to merge, and a new dotted line emerges indicating what coin is reachable from this second coin. To finalize the merge, click the third coin (and press "D" of course):
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Merge3.png" alt="orignal"> 
+<br>
+Almost there! Press "D" one last time to confirm the merge.
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Merge4.png" alt="orignal"> 
+<br>
+And the merge is complete! Note that the health of this big coin is the average of healths from the smaller coins. Also, a newly merged coin does not have any powerups upon instantiation...
+
+
 Powerups: Dynamite, Fireball, Mirror,.. Each has interesting effects when indicent coin picks it up
 TerrianSquares: Expand your territory--connected components can be used as portals (using "S" key) <-migrate this to "Gameplay"
