@@ -11,7 +11,7 @@ Rules: work in progress. these will be added below in the bottom. tldr version: 
 Features:
 Currency Exchange: Merge and split coins by "D" key
 Powerups: Dynamite, Fireball, Mirror,.. Each has interesting effects when indicent coin picks it up
-TerrianSquares: Expand your territory--connected components can be used as portals
+TerrianSquares: Expand your territory--connected components can be used as portals (using "S" key) <-migrate this to "Gameplay"
 
 
 Ok likely many unnecessary/stale files in here...here's some navigation in Unity3D--Checked with Unity5<br />
