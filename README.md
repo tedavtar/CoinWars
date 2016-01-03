@@ -71,8 +71,13 @@ Several things to note...First, the 3 children are in a locked state. Can't move
 <br>
 <img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Powerups.png" alt="orignal"> 
 <br>
-These rotating cubes in the game are the powerups; coins activate/acquire them when they pass through them
+These rotating cubes in the game are the powerups; coins activate/acquire them when they pass through them. Coins that pick these up have their health halo's color change to the color of the powerup <br>
+Dynamite: Coin equipped with this reduces the health of the next coin it comes into contact with by 33%
+Fireball: Coin equipped with this imparts a powerful impulse to the next coin it comes into contact with
+Mirror: Duplicates the coin going through it. Powerups are preserved.
+<br>
+**Player territories** Each turn players get more pipes that they can use to expand their territories. Territories are used for teleporting (see demo videos for me abusing their power!)
 
 
 
-TerrianSquares: Expand your territory--connected components can be used as portals (using "S" key) <-migrate this to "Gameplay"
+Expand your territory--connected components can be used as portals (using "S" key) <-migrate this to "Gameplay"
