@@ -32,7 +32,7 @@ Currency Exchange: Merge and split coins by "D" key
 
 Merging:
 
-Say we have three coins "near" each other (near = experiment to find out the right radius!)
+Say we have three unlocked coins "near" each other (near = experiment to find out the right radius!)
 Lets select (click) the middle coin and press "D".
 <br>
 <img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Merge1.png" alt="orignal"> 
@@ -51,6 +51,21 @@ Almost there! Press "D" one last time to confirm the merge.
 <br>
 And the merge is complete! Note that the health of this big coin is the average of healths from the smaller coins. Also, a newly merged coin does not have any powerups upon instantiation...
 
+Splitting:
+
+Whereas merging took 4 "D"'s, splitting only takes 1! First find an unlocked big coin, say this one below:
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Split1.png" alt="orignal"> 
+<br>
+Click to select it:
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Split2.png" alt="orignal"> 
+<br>
+Now press "D" to perform the split:
+<br>
+<img src="https://dl.dropboxusercontent.com/u/105935968/CoinWars/Snapshots/Split3.png" alt="orignal"> 
+<br>
+Several things to note...First, the 3 children are in a locked state. Can't move for this turn, greyed out. But on the other hand, the powerup that the big coin had is **preserved** Note that all the 3 small coins have the purple Dynamite powerup as indicated by their halos. Finally, their health is the same of the parent.
 
 Powerups: Dynamite, Fireball, Mirror,.. Each has interesting effects when indicent coin picks it up
 TerrianSquares: Expand your territory--connected components can be used as portals (using "S" key) <-migrate this to "Gameplay"
