@@ -78,10 +78,15 @@ Mirror: Duplicates the coin going through it. Powerups are preserved.
 <br>
 **Player territories** Each turn players get more pipes (currently set to 2) that they can use to expand their territories. Territories are used for teleporting (see demo videos for me abusing their power!)
 <br>
-I am especially proud of the coin's 2-click launch mechanism that I came up with!<br>
-To fire a coin, you need to 2 clicks, say at point A and at point B.  Now imagine a vector/line segment from A to B, AB.  If this vector "hits" a coin collider **first** (no other colliders) at say position C, then that coin will be launched in the direction AB and with force proportional to the ratio CB/AB.
 <br>
-This has some sweet properties, especially flexibility.  Say you clicked at point A but want to "break out" of the launch.  Then simply click somewhere else such that AB doesn't cross through a coin.  Then the launching state resets. Also, say you want to launch a coin really powerfully.  Then the obvious thing would be to place A far behind the coin and B really close to contact point(C).  But if you feel your first click at A wasn't far back enough, you don't have to break out--instead with practice, you can compensate by having your second B click be closer--due to the ratio process.  
+**How to launch coins**
+<br>
+I am especially proud of the coin's 2-click launch mechanism that I came up with!<br>
+To fire a coin, you need to 2 clicks, say at point A and at point B.  Now imagine a vector/line segment from A to B, AB.  If this vector "hits" a coin collider __first__ (no other colliders) at say position C, then that coin will be launched in the direction AB and with force proportional to the ratio CB/AB.
+<br>
+This has some sweet properties, especially flexibility.  Say you clicked at point A but want to "break out" of the launch.  Then simply click somewhere else such that AB doesn't cross through a coin.  Then the launching state resets. Also, say you want to launch a coin really powerfully.  Then the obvious thing would be to place A far behind the coin and B really close to contact point(C).  But if you feel your first click at A wasn't far back enough, you don't have to break out--instead with practice, you can compensate by having your second B click be closer--due to the ratio process.
+
+Sidenote: all this raises some nuances when coins are stuck next to walls/obstacles. Skillful camera handling is often needed for such constricted launches.
 
 
 
