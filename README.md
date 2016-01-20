@@ -76,7 +76,11 @@ Dynamite: Coin equipped with this reduces the health of the next coin it comes i
 Fireball: Coin equipped with this imparts a powerful impulse to the next coin it comes into contact with
 Mirror: Duplicates the coin going through it. Powerups are preserved.
 <br>
-**Player territories** Each turn players get more pipes (currently set to 2) that they can use to expand their territories. Territories are used for teleporting (see demo videos for me abusing their power!)
+**Player territories** Each turn players get more pipes (currently set to 2) that they can use to expand their territories. Territories are used for teleporting (see demo videos for me abusing their power!) Here's how:
+<br>
+1) Select coin you which to teleport. Press "S". Now all pipes of that coins color that form a connected component underneath this coin will change color to green<br>
+2) Click any green tile to move the coin there.<br>
+Note that if the destination tile a powerup (except mirror), then landing there will result in the coin acquiring that powerup.
 <br>
 <br>
 **How to launch coins**
@@ -90,4 +94,4 @@ Sidenote: all this raises some nuances when coins are stuck next to walls/obstac
 
 
 
-Expand your territory--connected components can be used as portals (using "S" key) <-migrate this to "Gameplay"
+
